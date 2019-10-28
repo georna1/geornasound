@@ -14,6 +14,12 @@
       ></g-image>
     </section>
     <section class="contactstyle">
+      <h1>I help singer/songwriters transform their song ideas into complete Pop or Electronic music productions.</h1>
+    </section>
+    <section class="heroarea">
+      <p></p>
+    </section>
+    <section class="contactstyle">
       <h1>Let's Talk About Your Music Project.</h1>
     </section>
     <section class="contactstyle">
@@ -111,7 +117,7 @@ export default {
 }
 
 .heroarea {
-  margin: 0 3rem;
+  margin: 0 2rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
   width: 100%;
@@ -119,36 +125,30 @@ export default {
 .heroarea h1 {
   font-size: 5.5rem;
   width: 100%;
-  margin: 0 1rem;
 }
 
 .heroarea a {
   font-size: 5rem;
-  margin: 0 2rem;
 }
 
 .heroarea p {
   font-size: 2rem;
-  margin: 0 1rem;
 }
 
 .contactstyle {
-  margin: 0 4rem;
+  margin: 0 2rem;
   width: 100%;
 }
 .contactstyle h1 {
   font-size: 4.5vh;
   width: 100%;
-  margin: 3 0rem;
 }
 
 .contactstyle a {
   font-size: 4vh;
-  margin: 3 8rem;
 }
 
 .contactstyle p {
   font-size: 2vh;
-  margin: 3 0rem;
 }
 </style>
