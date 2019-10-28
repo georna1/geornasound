@@ -21,10 +21,10 @@
     </section>
     <section class="contactstyle" ref="contactarea">
       <h1>Let's Talk About Your Music Project</h1>
-      <a class="link" href="@mailto:george@georna.com">Email</a>
+      <a class="link" :href="`mailto:${data.email}`">Email</a>
       <p>Reach out on Facebook or Instagram</p>
-      <a class="link" href="facebook.com/geornasound">Facebook</a>
-      <a class="link" href="instagram.com/geornasound">Instagram</a>
+      <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
+      <a class="link" href="https://instagram.com/geornasound">Instagram.</a>
     </section>
   </Layout>
 </template>
@@ -51,6 +51,20 @@ import ProjectMeta from "@/components/ProjectMeta";
 import data from "@/data/theme.json";
 
 export default {
+  name: "Header",
+  data() {
+    return {
+      data
+    };
+  },
+  computed: {
+    siteName() {
+      return data.header_title.split(" ");
+    },
+    multiLine() {
+      return this.siteName.length >= 1;
+    }
+  },
   components: {
     ProjectMeta
   },
@@ -96,10 +110,10 @@ export default {
   width: 100%;
 }
 .contactstyle h1 {
-  font-size: 50rem;
+  font-size: 20rem;
 }
 
 .contactstyle a {
-  font-size: 30rem;
+  font-size: 5rem;
 }
 </style>
