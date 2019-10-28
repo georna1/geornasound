@@ -9,7 +9,7 @@
     <section class="heroarea">
       <g-image
         class="project-thumbnail2"
-        src="~/george.jpg"
+        src="~/george2.jpg"
         alt="George Williams - Georna Sound, Norfolk, UK, Music Production"
       ></g-image>
     </section>
@@ -161,16 +161,16 @@ export default {
 .contactstyle h1 {
   font-size: 5vh;
   width: 100%;
-  margin: 1 0rem;
+  margin: 3 0rem;
 }
 
 .contactstyle a {
-  font-size: 2vh;
-  margin: 0 8rem;
+  font-size: 4vh;
+  margin: 3 8rem;
 }
 
 .contactstyle p {
   font-size: 2vh;
-  margin: 1 0rem;
+  margin: 3 0rem;
 }
 </style>
