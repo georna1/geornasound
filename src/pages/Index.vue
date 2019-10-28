@@ -21,7 +21,7 @@
     </section>
     <section class="contactstyle" ref="contactarea">
       <h1>Let's Talk About Your Music Project</h1>
-      <a class="link" :href="`mailto:${data.email}`">Email</a>
+      <a class="link" :href="`mailto:${data.email}`">Email.</a>
       <p>Reach out on Facebook or Instagram</p>
       <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
       <a class="link" href="https://instagram.com/geornasound">Instagram.</a>
@@ -110,10 +110,15 @@ export default {
   width: 100%;
 }
 .contactstyle h1 {
-  font-size: 20rem;
+  font-size: 8rem;
 }
 
 .contactstyle a {
   font-size: 5rem;
+}
+
+.contactstyle p {
+  font-size: 1rem;
+  margin: 0 4rem;
 }
 </style>
