@@ -6,7 +6,7 @@
     <section class="heroarea">
       <p>I'm a music producer currently based in Norfolk, UK.</p>
     </section>
-    <section class="heroarea">
+    <section class="heroarea_b">
       <g-image
         class="project-thumbnail2"
         src="~/george2.jpg"
@@ -44,7 +44,7 @@
     <section class="contactstyle">
       <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
     </section>
-    <section class="contactstyle">
+    <section class="contactstyle2">
       <a class="link" href="https://instagram.com/geornasound">Instagram.</a>
     </section>
   </Layout>
@@ -127,8 +127,7 @@ export default {
 }
 
 .project-thumbnail2 {
-  width: 80%;
-  margin: 0 1rem;
+  width: 100%;
 }
 
 .heroarea {
@@ -158,7 +157,7 @@ export default {
   width: 100%;
 }
 .contactstyle h1 {
-  font-size: 5vh;
+  font-size: 4.5vh;
   width: 100%;
   margin: 3 0rem;
 }
@@ -166,6 +165,12 @@ export default {
 .contactstyle a {
   font-size: 4vh;
   margin: 3 8rem;
+}
+
+.contactstyle2 a {
+  font-size: 4vh;
+  margin: 3 8rem;
+  margin-bottom: 4rem;
 }
 
 .contactstyle p {
