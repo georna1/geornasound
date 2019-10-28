@@ -7,7 +7,11 @@
       <p>I'm a music producer currently based in Norfolk, UK.</p>
     </section>
     <section class="heroarea">
-      <img src="/static/uploads/george.gif" />
+      <g-image
+        class="project-thumbnail"
+        src="~/uploads/george.jpg"
+        alt="George Williams - Georna Sound, Norfolk, UK, Music Production"
+      ></g-image>
     </section>
     <section class="projects">
       <article
@@ -122,9 +126,9 @@ export default {
   width: 100%;
 }
 .heroarea {
-  margin: 0 4rem;
-  margin-top: 12rem;
-  margin-bottom: 8rem;
+  margin: 0 3rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   width: 100%;
 }
 .heroarea h1 {
