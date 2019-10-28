@@ -3,6 +3,7 @@
     <section class="heroarea">
       <h1>My name is George Williams.</h1>
     </section>
+    <hr />
     <section class="heroarea">
       <p>I'm a music producer currently based in Norfolk, UK.</p>
     </section>
@@ -14,7 +15,8 @@
       ></g-image>
     </section>
     <section class="contactstyle">
-      <h1>I help singer/songwriters transform their song ideas into complete Pop or Electronic music productions.</h1>
+      <h1>I specialise in helping singer/songwriters transform their song ideas into complete Pop/Electronic music productions.</h1>
+      <hr />
     </section>
     <section class="heroarea">
       <p></p>
@@ -120,11 +122,10 @@ export default {
   margin: 0 2rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
-  width: 100%;
+  width: 90%;
 }
 .heroarea h1 {
   font-size: 5.5rem;
-  width: 100%;
 }
 
 .heroarea a {
@@ -137,11 +138,10 @@ export default {
 
 .contactstyle {
   margin: 0 2rem;
-  width: 100%;
+  width: 90%;
 }
 .contactstyle h1 {
   font-size: 4.5vh;
-  width: 100%;
 }
 
 .contactstyle a {
