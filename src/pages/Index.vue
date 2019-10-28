@@ -9,7 +9,7 @@
     <section class="heroarea">
       <g-image
         class="project-thumbnail"
-        src="~/uploads/george.jpg"
+        src="~/george.jpg"
         alt="George Williams - Georna Sound, Norfolk, UK, Music Production"
       ></g-image>
     </section>
