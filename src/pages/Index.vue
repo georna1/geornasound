@@ -136,7 +136,7 @@ export default {
   width: 100%;
 }
 .heroarea h1 {
-  font-size: 6rem;
+  font-size: 5.5rem;
   width: 100%;
   margin: 0 1rem;
 }
