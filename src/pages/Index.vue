@@ -48,6 +48,7 @@ query Projects {
 
 <script>
 import ProjectMeta from "@/components/ProjectMeta";
+import data from "@/data/theme.json";
 
 export default {
   components: {
@@ -72,12 +73,7 @@ export default {
         this.$router.push(route);
       }, 450);
     }
-  }
-};
-
-import data from "@/data/theme.json";
-
-export default {
+  },
   name: "Header",
   data() {
     return {
