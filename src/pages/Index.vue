@@ -5,7 +5,7 @@
       <p>I'm a music producer currently based in Norfolk, UK.</p>
       <img
         class="project-thumbnail"
-        src="./static/uploads/1.jpg"
+        src="'../static/uploads/1.jpg'"
         alt="Georna Sound - George Williams"
       />
     </section>
