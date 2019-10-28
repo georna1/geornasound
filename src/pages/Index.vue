@@ -127,6 +127,7 @@ export default {
 }
 
 .project-thumbnail2 {
+  display: block;
   width: 100%;
 }
 
