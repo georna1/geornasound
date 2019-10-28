@@ -44,8 +44,11 @@
     <section class="contactstyle">
       <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
     </section>
-    <section class="contactstyle2">
+    <section class="contactstyle">
       <a class="link" href="https://instagram.com/geornasound">Instagram.</a>
+    </section>
+    <section>
+      <p></p>
     </section>
   </Layout>
 </template>
@@ -161,12 +164,6 @@ export default {
 .contactstyle a {
   font-size: 4vh;
   margin: 3 8rem;
-}
-
-.contactstyle2 a {
-  font-size: 4vh;
-  margin: 3 16rem;
-  margin-bottom: 4rem;
 }
 
 .contactstyle p {
