@@ -105,23 +105,23 @@ export default {
   width: 100%;
 }
 .contactstyle {
-  margin: 5vw;
+  margin: 0 4rem;
   margin-bottom: 8rem;
   width: 100%;
 }
 .contactstyle h1 {
-  font-size: 0.6vw;
+  font-size: 6rem;
   width: 100%;
-  margin: 10vw;
+  margin: 0 1rem;
 }
 
 .contactstyle a {
-  font-size: 0.5vw;
-  margin: 20vw;
+  font-size: 5rem;
+  margin: 0 2rem;
 }
 
 .contactstyle p {
-  font-size: 0.2vw;
-  margin: 10vw;
+  font-size: 2rem;
+  margin: 0 1rem;
 }
 </style>
