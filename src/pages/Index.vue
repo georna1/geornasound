@@ -116,7 +116,7 @@ export default {
 }
 
 .contactstyle a {
-  font-size: .vw;
+  font-size: 0.5vw;
   margin: 20vw;
 }
 
