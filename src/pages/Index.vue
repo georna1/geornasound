@@ -7,7 +7,7 @@
       <p>I'm a music producer currently based in Norfolk, UK.</p>
     </section>
     <section class="heroarea">
-      <img :src="require(@/static/uploads/george.gif)" />
+      <img src="./static/uploads/george.gif" />
     </section>
     <section class="projects">
       <article
