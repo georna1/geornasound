@@ -2,8 +2,12 @@
   <Layout>
     <section class="heroarea">
       <h1>My name is George Williams.</h1>
+    </section>
+    <section class="heroarea">
       <p>I'm a music producer currently based in Norfolk, UK.</p>
-      <img src="/static/uploads/1.jpg" />
+    </section>
+    <section class="heroarea">
+      <img src="@/static/uploads/george.gif" />
     </section>
     <section class="projects">
       <article
@@ -144,14 +148,14 @@ export default {
   width: 100%;
 }
 .contactstyle h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   width: 100%;
   margin: 0 1rem;
 }
 
 .contactstyle a {
-  font-size: 5rem;
-  margin: 0 2rem;
+  font-size: 4rem;
+  margin: 0 4rem;
 }
 
 .contactstyle p {
