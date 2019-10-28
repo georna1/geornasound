@@ -111,6 +111,8 @@ export default {
 }
 .contactstyle h1 {
   font-size: 8rem;
+  width: 100%;
+  margin: 0 4rem;
 }
 
 .contactstyle a {
