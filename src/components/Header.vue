@@ -21,7 +21,7 @@
       </span>
     </g-link>
     <div class="contact">
-      <a class="link" @click="scrollMeTo('index.vue/contactarea')">Let's Talk</a>
+      <a class="link" :href="`mailto:${data.email}`">Let's Talk</a>
     </div>
   </header>
 </template>

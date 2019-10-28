@@ -19,9 +19,9 @@
         />
       </article>
     </section>
-    <section ref="contactarea">
+    <section class="contactstyle" ref="contactarea">
       <h1>Let's Talk About Your Music Project</h1>
-      <a class="link" href="mailto:george@georna.com">Email</a>
+      <a class="link" href="@mailto:george@georna.com">Email</a>
       <p>Reach out on Facebook or Instagram</p>
       <a class="link" href="facebook.com/geornasound">Facebook</a>
       <a class="link" href="instagram.com/geornasound">Instagram</a>
@@ -89,5 +89,11 @@ export default {
 .project-thumbnail {
   display: block;
   width: 100%;
+}
+.contactstyle {
+  margin: 0 2rem;
+  margin-bottom: 8rem;
+  cursor: pointer;
+  width: 50%;
 }
 </style>
