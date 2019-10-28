@@ -21,10 +21,10 @@
     </section>
     <section ref="contactarea">
       <h1>Let's Talk About Your Music Project</h1>
-      <a class="link" :href="`mailto:${data.email}`">Email: george@georna.com</a>
+      <a class="link" href="mailto:george@georna.com">Email</a>
       <p>Reach out on Facebook or Instagram</p>
-      <a class="link" :href="facebook.com/geornasound">Facebook</a>
-      <a class="link" :href="instagram.com/geornasound">Instagram</a>
+      <a class="link" href="facebook.com/geornasound">Facebook</a>
+      <a class="link" href="instagram.com/geornasound">Instagram</a>
     </section>
   </Layout>
 </template>
@@ -72,20 +72,6 @@ export default {
       setTimeout(() => {
         this.$router.push(route);
       }, 450);
-    }
-  },
-  name: "Header",
-  data() {
-    return {
-      data
-    };
-  },
-  computed: {
-    siteName() {
-      return data.header_title.split(" ");
-    },
-    multiLine() {
-      return this.siteName.length >= 1;
     }
   }
 };
