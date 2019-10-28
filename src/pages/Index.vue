@@ -127,15 +127,14 @@ export default {
 }
 
 .project-thumbnail2 {
-  display: block;
   width: 80%;
   margin: 0 1rem;
 }
 
 .heroarea {
   margin: 0 3rem;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   width: 100%;
 }
 .heroarea h1 {
