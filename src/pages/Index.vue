@@ -5,7 +5,7 @@
       <p>I'm a music producer currently based in Norfolk, UK.</p>
       <img
         class="project-thumbnail"
-        src="static/uploads/1.jpg"
+        src="./static/uploads/1.jpg"
         alt="Georna Sound - George Williams"
       />
     </section>
@@ -123,6 +123,7 @@ export default {
 }
 .heroarea {
   margin: 0 4rem;
+  margin-top: 12rem;
   margin-bottom: 8rem;
   width: 100%;
 }
