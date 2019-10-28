@@ -1,23 +1,18 @@
 {
-  "site_name": "DPT",
-  "header_title": "Darkfolio Portfolio Theme",
+  "site_name": "GS",
+  "header_title": "Georna Sound",
   "first_letter_only": true,
-  "email": "nichlas@itsnwa.com",
+  "email": "george@georna.com",
   "social": [
     {
-      "channel": "twitter",
-      "handle": "nichlaswa",
-      "link_text": "tw"
+      "channel": "facebook",
+      "handle": "geornasound",
+      "link_text": "facebook.com/geornasound"
     },
     {
       "channel": "instagram",
-      "handle": "its.nwa",
-      "link_text": "ig"
-    },
-    {
-      "channel": "github",
-      "handle": "itsnwa",
-      "link_text": "gh"
+      "handle": "geornasound",
+      "link_text": "facebook.com/geornasound"
     }
   ]
 }
