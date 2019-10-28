@@ -3,11 +3,7 @@
     <section class="heroarea">
       <h1>My name is George Williams.</h1>
       <p>I'm a music producer currently based in Norfolk, UK.</p>
-      <img
-        class="project-thumbnail"
-        src="'../static/uploads/1.jpg'"
-        alt="Georna Sound - George Williams"
-      />
+      <img src="/static/uploads/1.jpg" />
     </section>
     <section class="projects">
       <article
@@ -29,13 +25,13 @@
       </article>
     </section>
     <section class="contactstyle">
-      <h1>Let's Talk About Your Music Project</h1>
+      <h1>Let's Talk About Your Music Project.</h1>
     </section>
     <section class="contactstyle">
       <a class="link" :href="`mailto:${data.email}`">Email.</a>
     </section>
     <section class="contactstyle">
-      <p>or reach out on Facebook or Instagram:</p>
+      <p>Or reach out on Facebook or Instagram:</p>
     </section>
     <section class="contactstyle">
       <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
@@ -145,7 +141,6 @@ export default {
 
 .contactstyle {
   margin: 0 4rem;
-  margin-bottom: 8rem;
   width: 100%;
 }
 .contactstyle h1 {
