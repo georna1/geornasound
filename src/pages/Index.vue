@@ -19,6 +19,13 @@
         />
       </article>
     </section>
+    <section ref="contactarea">
+      <h1>Let's Talk About Your Music Project</h1>
+      <a class="link" :href="`mailto:${data.email}`">Email: george@georna.com</a>
+      <p>Reach out on Facebook or Instagram</p>
+      <a class="link" :href="facebook.com/geornasound">Facebook</a>
+      <a class="link" :href="instagram.com/geornasound">Instagram</a>
+    </section>
   </Layout>
 </template>
 
@@ -41,6 +48,7 @@ query Projects {
 
 <script>
 import ProjectMeta from "@/components/ProjectMeta";
+import data from "@/data/theme.json";
 
 export default {
   components: {
