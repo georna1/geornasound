@@ -48,7 +48,6 @@ query Projects {
 
 <script>
 import ProjectMeta from "@/components/ProjectMeta";
-import data from "@/data/theme.json";
 
 export default {
   components: {
@@ -72,6 +71,25 @@ export default {
       setTimeout(() => {
         this.$router.push(route);
       }, 450);
+    }
+  }
+};
+
+import data from "@/data/theme.json";
+
+export default {
+  name: "Header",
+  data() {
+    return {
+      data
+    };
+  },
+  computed: {
+    siteName() {
+      return data.header_title.split(" ");
+    },
+    multiLine() {
+      return this.siteName.length >= 1;
     }
   }
 };
