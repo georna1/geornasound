@@ -1,5 +1,14 @@
 <template>
   <Layout>
+    <section class="heroarea">
+      <h1>My name is George Williams.</h1>
+      <p>I'm a music producer currently based in Norfolk, UK.</p>
+      <img
+        class="project-thumbnail"
+        src="static/uploads/1.jpg"
+        alt="Georna Sound - George Williams"
+      />
+    </section>
     <section class="projects">
       <article
         @click="goTo($event, project.node.path)"
@@ -19,11 +28,19 @@
         />
       </article>
     </section>
-    <section class="contactstyle" ref="contactarea">
+    <section class="contactstyle">
       <h1>Let's Talk About Your Music Project</h1>
+    </section>
+    <section class="contactstyle">
       <a class="link" :href="`mailto:${data.email}`">Email.</a>
-      <p>Reach out on Facebook or Instagram</p>
+    </section>
+    <section class="contactstyle">
+      <p>or reach out on Facebook or Instagram:</p>
+    </section>
+    <section class="contactstyle">
       <a class="link" href="https://facebook.com/geornasound">Facebook.</a>
+    </section>
+    <section class="contactstyle">
       <a class="link" href="https://instagram.com/geornasound">Instagram.</a>
     </section>
   </Layout>
@@ -104,6 +121,27 @@ export default {
   display: block;
   width: 100%;
 }
+.heroarea {
+  margin: 0 4rem;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+.heroarea h1 {
+  font-size: 6rem;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.heroarea a {
+  font-size: 5rem;
+  margin: 0 2rem;
+}
+
+.heroarea p {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
 .contactstyle {
   margin: 0 4rem;
   margin-bottom: 8rem;
