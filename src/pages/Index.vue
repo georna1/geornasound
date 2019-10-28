@@ -6,9 +6,9 @@
     <section class="heroarea">
       <p>I'm a music producer currently based in Norfolk, UK.</p>
     </section>
-    <section class="heroarea_b">
+    <section class="projects">
       <g-image
-        class="project-thumbnail2"
+        class="project-thumbnail"
         src="~/george3.jpg"
         alt="George Williams - Georna Sound, Norfolk, UK, Music Production"
       ></g-image>
@@ -122,11 +122,6 @@ export default {
   cursor: pointer;
 }
 .project-thumbnail {
-  display: block;
-  width: 100%;
-}
-
-.project-thumbnail2 {
   display: block;
   width: 100%;
 }
