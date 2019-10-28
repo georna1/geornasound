@@ -91,9 +91,15 @@ export default {
   width: 100%;
 }
 .contactstyle {
-  margin: 0 2rem;
+  margin: 0 20rem;
   margin-bottom: 8rem;
-  cursor: pointer;
-  width: 50%;
+  width: 100%;
+}
+.contactstyle h1 {
+  font-size: 50rem;
+}
+
+.contactstyle a {
+  font-size: 30rem;
 }
 </style>
